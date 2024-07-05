@@ -9,6 +9,7 @@ gcc -o main main.c library.c
 
 Starting ideas:
 -> bubblesort an array (OK)
+    void Bubblesort(pointer to array, size of array);
 -> square root of a number
 -> pow of a number
 -> factorial of a number
