@@ -1,16 +1,22 @@
 # C-Library
 
-Library where I will add some functions (algorithms) that I learn and find interesting/useful.
-This will be quite a long term project, as I plan to add things as I learn them.
+# C Library of my Computer Science Degree
 
-How to compile and run:
-gcc -o main main.c library.c
-./main
+## How to Use
+$ gcc -o main main.c library.c
+$ ./main
 
-Starting ideas:
--> bubblesort an array (OK)
--> square root of a number
--> pow of a number
--> factorial of a number
--> add N numbers
--> find all prime numbers in array
+## Functions
+- Bubblesort:
+```c
+void Bubblesort(int* pointerToArray, int sizeOfArray);
+```
+
+## General Idea
+Make a library in C containing algorithms that I learn throughout my Computer Science degree.
+Functions:
+1. Bubblesort (OK)
+2. Square Root
+3. POW
+4. Factorial
+5. Find the prime number
