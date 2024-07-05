@@ -3,8 +3,8 @@
 # C Library of my Computer Science Degree
 
 ## How to Use
-$ gcc -o main main.c library.c
-$ ./main
+- $ gcc -o main main.c library.c
+- $ ./main
 
 ## Functions
 - Bubblesort:
