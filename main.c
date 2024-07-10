@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "library.h"
 
 /*How to compile
@@ -19,6 +20,7 @@ int main (void){
     printf("1. Bubblesort\n");
     printf("2. Square root\n");
 
+    fflush(stdin);
     scanf("%d", &n);
 
     switch (n){
@@ -36,13 +38,18 @@ int main (void){
       case 2:
         //Square root
         double res = SquareRoot(77);
-        printf("Square root of 77: %lf\n", res);
+        printf("\nSquare root of 77: %lf\n", res);
         break;
 
       default:
         printf("Command not found, try again\n");
         break;
     }
+        printf("Press ENTER to continue\n");
+        while(getchar()!='\n');
+        getchar();
+        system("clear");
+
   } while (n != 0);
 
   return 0;
