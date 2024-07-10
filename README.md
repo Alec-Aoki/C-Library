@@ -11,12 +11,16 @@
 ```c
 void Bubblesort(int* pointerToArray, int sizeOfArray);
 ```
+- Square root:
+```c
+double SquareRoot(double N);
+```
 
 ## General Idea
 Make a library in C containing algorithms that I learn throughout my Computer Science degree.
 Functions:
 1. Bubblesort (OK)
-2. Square Root
+2. Square Root (OK)
 3. POW
 4. Factorial
 5. Find the prime number
