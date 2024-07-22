@@ -19,6 +19,7 @@ int main (void){
     printf("0. Exit\n");
     printf("1. Bubblesort\n");
     printf("2. Square root\n");
+    printf("3. Power of (pow)\n");
 
     fflush(stdin);
     scanf("%d", &n);
@@ -30,7 +31,7 @@ int main (void){
 
       case 1:
         //Bubblesort, testing with array
-        printf("\nBefore: %d %d %d %d\n", ptr[0], ptr[1], ptr[2], ptr[3]);
+        printf("Before: %d %d %d %d\n", ptr[0], ptr[1], ptr[2], ptr[3]);
         Bubblesort(ptr, 4);
         printf("\nAfter: %d %d %d %d\n", ptr[0], ptr[1], ptr[2], ptr[3]);
         break;
@@ -38,7 +39,12 @@ int main (void){
       case 2:
         //Square root
         double res = SquareRoot(77);
-        printf("\nSquare root of 77: %lf\n", res);
+        printf("Square root of 77: %lf\n", res);
+        break;
+
+      case 3:
+        //Pow
+        printf("2^3 = %.2lf\n", ppow(2, 3));
         break;
 
       default:

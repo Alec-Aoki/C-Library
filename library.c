@@ -20,7 +20,7 @@ void Bubblesort(int* pointerToArray, int sizeOfArray){
 }
 
 /* Square Root
- * Not sure what method this is. Refer to https://stackoverflow.com/questions/1623375/writing-your-own-square-root-function for a better explanation.
+ * Improved approximation method. Refer to https://stackoverflow.com/questions/1623375/writing-your-own-square-root-function for a better explanation.
  * Algorithm:
  *  -> take the number N
  *  -> take N_low = 0 and N_high = N
@@ -49,4 +49,13 @@ double SquareRoot(double N){
   } while (((float)(N_root*N_root)) != ((float)(N)));
 
   return N_root;
+}
+
+/*POW*/
+double ppow(double n, int exp){
+  double res=1;
+  for(int i=1; i<=exp; i++){
+    res = res*n;
+  }
+  return res;
 }

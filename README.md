@@ -15,6 +15,10 @@ void Bubblesort(int* pointerToArray, int sizeOfArray);
 ```c
 double SquareRoot(double N);
 ```
+- Power of:
+```c
+double ppow(double n, double exp);
+```
 
 ## General Idea
 Make a library in C containing ideas/algorithms that I learn throughout my Computer Science degree.
@@ -30,6 +34,7 @@ Functions:
         ```
     - That solution, although precise, takes too long and spends too much computing power. A much better solution is the approximation method, by which we place the possible square root in between to numbers (perfect squares) and change those numbers so that their squares are closer and closer to our number N.
     - We can simplify that solution (avoiding having to choose those two perfect squares). For more information on that, refer to the library.c code.
-3. POW
+3. POW (OK)
+    - Works the same as in math.h. I wonder if there is a better way to do it other than a loop.
 4. Factorial
 5. Find the prime number
