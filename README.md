@@ -19,6 +19,10 @@ double SquareRoot(double N);
 ```c
 double ppow(double n, double exp);
 ```
+- Factorial:
+```c
+unsigned long int Factorial(unsigned long int n);
+```
 
 ## General Idea
 Make a library in C containing ideas/algorithms that I learn throughout my Computer Science degree.
