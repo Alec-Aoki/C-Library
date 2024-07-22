@@ -36,5 +36,10 @@ Functions:
     - We can simplify that solution (avoiding having to choose those two perfect squares). For more information on that, refer to the library.c code.
 3. POW (OK)
     - Works the same as in math.h. I wonder if there is a better way to do it other than a loop.
-4. Factorial
+4. Factorial (OK)
+    - Implemented recursively.
+        ```
+        F(n) = { 1, n=0 or n=1
+               { n*F(n-1), n>1
+        ```
 5. Find the prime number
