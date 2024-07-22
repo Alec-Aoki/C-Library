@@ -38,7 +38,7 @@ Functions:
         ```
     - That solution, although precise, takes too long and spends too much computing power. A much better solution is the approximation method, by which we place the possible square root in between to numbers (perfect squares) and change those numbers so that their squares are closer and closer to our number N.
     - We can simplify that solution (avoiding having to choose those two perfect squares). For more information on that, refer to the library.c code.
-3. POW (OK)
+3. Power of (pow) (OK)
     - Works the same as in math.h. I wonder if there is a better way to do it other than a loop.
 4. Factorial (OK)
     - Implemented recursively.
@@ -46,4 +46,6 @@ Functions:
         F(n) = { 1, n=0 or n=1
                { n*F(n-1), n>1
         ```
-5. Find the prime number
+5. Check if the number is prime (OK)
+    - Checks if the number n is prime by definition.
+    - One interesting idea is that of the Sieve of Eratosthenes, that can producuce a list of all prime numbers until a certain numbers. Check if a number is prime through that method, however, would be quite slow.
