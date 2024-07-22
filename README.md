@@ -27,9 +27,8 @@ Functions:
 for (double i=(N/2); i*i<=N; i=i+0.000001){
     squareroot = i;
 }
-```
     - That solution, although precise, takes too long and spends too much computing power. A much better solution is the approximation method, by which we place the possible square root in between to numbers (perfect squares) and change those numbers so that their squares are closer and closer to our number N.
-    - We can simply that solution (avoiding having to choose those two perfect squares) as explained in the library.c code. Refer to it for more information on this algorithm.
+    - We can simply that solution (avoiding having to choose those two perfect squares)
 3. POW
 4. Factorial
 5. Find the prime number
