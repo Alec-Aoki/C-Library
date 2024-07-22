@@ -20,6 +20,7 @@ int main (void){
     printf("1. Bubblesort\n");
     printf("2. Square root\n");
     printf("3. Power of (pow)\n");
+    printf("4. Factorial\n");
 
     fflush(stdin);
     scanf("%d", &n);
@@ -45,6 +46,11 @@ int main (void){
       case 3:
         //Pow
         printf("2^3 = %.2lf\n", ppow(2, 3));
+        break;
+
+      case 4:
+        //Factorial
+        printf("5! = %lu\n", Factorial(5));
         break;
 
       default:

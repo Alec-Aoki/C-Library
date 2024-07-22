@@ -51,11 +51,27 @@ double SquareRoot(double N){
   return N_root;
 }
 
-/*POW*/
+/*POW
+n^exp = n*n, exp times
+*/
 double ppow(double n, int exp){
   double res=1;
   for(int i=1; i<=exp; i++){
     res = res*n;
   }
   return res;
+}
+
+/*Factorial
+n! = n*(n-1)*(n-2)*...*1
+Recursively:
+F(n) = { 1, n=0 or n=1
+       { n*F(n-1), n>1
+*/
+unsigned long int Factorial(unsigned long int n){
+  if ((n == 0) || (n == 1)){
+    return 1;
+  }
+  
+  return (n * (Factorial(n-1)));
 }
