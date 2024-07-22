@@ -72,6 +72,23 @@ unsigned long int Factorial(unsigned long int n){
   if ((n == 0) || (n == 1)){
     return 1;
   }
-  
+
   return (n * (Factorial(n-1)));
+}
+
+/*Is the number prime?
+Returns 0 if it is NOT, and 1 if it IS.
+*/
+int isPrime(int n){
+  if((n == 0) || (n == 1)){
+    return 0;
+    //0 and 1 are not primes
+  }
+
+  for(int i=0; i<=(n/2); i++){
+    if(n%2 == 0){
+      return 0;
+    }
+  }
+  return 1;
 }

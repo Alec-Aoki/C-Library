@@ -21,6 +21,7 @@ int main (void){
     printf("2. Square root\n");
     printf("3. Power of (pow)\n");
     printf("4. Factorial\n");
+    printf("5. Check if it's prime\n");
 
     fflush(stdin);
     scanf("%d", &n);
@@ -51,6 +52,15 @@ int main (void){
       case 4:
         //Factorial
         printf("5! = %lu\n", Factorial(5));
+        break;
+
+      case 5:
+        //Check if the number is prime
+        if(isPrime(5)){
+          printf("5 is prime\n");
+          break;
+        }
+        printf("5 is not prime\n");
         break;
 
       default:
