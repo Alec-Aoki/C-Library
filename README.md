@@ -1,6 +1,6 @@
 # C-Library
 
-# C Library of my Computer Science Degree
+## To-Do: make it an Data Structure Thingy
 
 ## How to Compile
 - $ gcc -o main main.c library.c
